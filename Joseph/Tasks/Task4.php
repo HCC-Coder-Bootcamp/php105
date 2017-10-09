@@ -1,0 +1,2 @@
+<?php
+// Factor of input.
