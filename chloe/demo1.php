@@ -16,8 +16,8 @@
 
 
 
-	$total = 0;
-	$input = 0;
+	$total = readline('total');
+	$input = readline('input');
 
 	do {
 

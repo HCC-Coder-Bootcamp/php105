@@ -5,11 +5,13 @@
  */
 
 // $i += $i;
-	
-	$n = readline('');
-	$i = 1;
 
-	while ($i <= $n){
-		echo "$i ";
-		$i *= 2;
+	$n = (int)readline('show even number until? : ');
+
+	$i = 1;
+	while ( $i <= $n ) {
+		if ( $i % 2 == 1 ) {
+			echo "$i, ";
+		}
+		$i ++;
 	}
