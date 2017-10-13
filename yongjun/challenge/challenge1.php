@@ -1,0 +1,2 @@
+<?php
+// HCF, LCM
