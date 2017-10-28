@@ -1,16 +1,16 @@
 <?php
 // Show even number form 0 to n. n is input number.
 
-$input  = readline('');
+$n = readline('');
 $number = 1;
 
-while ($number <= $input) {
+while ($number <= $n) {
 	if ($number % 2 == 0) {
 		echo $number . PHP_EOL;
 	}
 	$number++;
 }
 
-//while ($number <= $input/2) {
-	//echo 2 * $number;
-//}
+// while ($number <= ($n/2)) {
+// 	echo 2 * $number;
+// }
