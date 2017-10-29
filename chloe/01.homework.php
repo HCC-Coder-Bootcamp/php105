@@ -6,3 +6,15 @@
  * calculate 2 * 2 * 2
  * answer is 8
  */
+
+	$x = readline('noX: ');
+	$y = readline('noY: ');
+	$i = 0;
+	$ans = 1;
+
+	while ( $i < $y ) {
+		$ans = $ans * $x;
+		//echo " $i ";
+		$i ++;
+	}
+	echo "$ans" . PHP_EOL;

@@ -4,7 +4,7 @@ $total = 0;
 $input = 0;
 
 do {
-	$total = $total + (int)$input;
+	$total += (int)$input;
 	echo $total . PHP_EOL;
 	$input = readline('');
 } while ($input != 'x');

@@ -6,6 +6,7 @@
  * calculate 5 * 4 * 3 * 2 * 1;
  * answer 120
  */
+<<<<<<< 53f1af8fa9c681eaa02077524db5ad07b57ffdc9
 ?>
 
 <?php 
@@ -38,3 +39,7 @@
 		//$total = $i + $total;
 		//echo "$total";
 	//}
+||||||| merged common ancestors
+=======
+
+>>>>>>> yeah
