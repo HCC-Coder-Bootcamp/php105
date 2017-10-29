@@ -8,7 +8,7 @@
 	$sparate = 0;
 
 	do {
-		$sparate = ($input % 10) * 10;
+		$sparate = $sparate + ($input % 10) * 10;
 		$input = ($input - ($input % 10)) / 10;
 		
 		echo $sparate /= 10;
